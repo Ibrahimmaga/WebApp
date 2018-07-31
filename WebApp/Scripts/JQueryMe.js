@@ -3,5 +3,8 @@
 });
 
 $("button").on("click", function () {
-    $("img").toggle(1000);
+    $("#img1").fadeToggle();
+    $("#img2").fadeToggle(1000);
+    $("#img3").fadeToggle(3000);
+
 })
